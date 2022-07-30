@@ -1,0 +1,304 @@
+@media (max-width: 1580px) {
+  .basket {
+    display: none;
+  }
+}
+@media (max-width: 1170px) {
+  .wrapper .sidebar__btn-menu-block {
+    position: absolute;
+    display: inline-block;
+    top: 118px;
+    left: 10px;
+    background-color: #f2f2f2;
+    z-index: 5;
+  }
+  .wrapper .sidebar {
+    display: none;
+  }
+  .wrapper .sidebar-position {
+    display: block;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 3;
+    height: 100%;
+  }
+}
+@media (max-width: 860px) {
+  .wrapper {
+    display: block;
+  }
+  .wrapper .container {
+    padding: 0px 15px;
+  }
+  .wrapper main .footer__menu {
+    padding: 11px 100px 0px 20px;
+  }
+  .wrapper main .footer__contacts {
+    padding: 10px 20px 60px 20px;
+  }
+  .wrapper main .footer__phones {
+    padding: 10px 0px 0px 20px;
+  }
+  .wrapper main .cards__inner-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper main .cards__title {
+    display: inline-block;
+  }
+  .wrapper main .cards__inner {
+    display: block;
+  }
+  .wrapper main .cards__seth {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper main .cards__seth-description {
+    border-bottom: none;
+    padding: 5px 0px 0px 17px;
+  }
+  .wrapper main .cards__seth-down {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 20px 20px 20px 17px;
+  }
+  .wrapper main .cards__seth-title {
+    padding: 20px 0px 0px 17px;
+    white-space: nowrap;
+    margin: 0;
+    display: inline-block;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  .wrapper main .cards__info-inner {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper main .header {
+    background-color: #ffffff;
+    padding-left: 55px;
+  }
+  .wrapper main .header__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-right: none;
+    position: relative;
+    padding: 0px 18px 0px 63px;
+    margin: 6px 0px 8px 0px;
+  }
+  .wrapper main .header__contacts::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/media/logo.svg);
+    width: 90px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  .wrapper main .header__contacts-connect {
+    padding: 6px 33px 0px 0px;
+  }
+  .wrapper main .header__contacts-title {
+    font-size: 18px;
+  }
+  .wrapper main .header__contacts-chart {
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 17px;
+    font-size: 14px;
+    margin: 8px 30px 0px 0px;
+  }
+  .wrapper main .header__contacts-chart::before {
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-size: 100% 100%;
+  }
+  .wrapper main .header__contacts-phone {
+    white-space: nowrap;
+  }
+  .wrapper main .header__city {
+    display: none;
+  }
+  .wrapper main .header__clients-reviews {
+    display: none;
+  }
+  .wrapper main .header__clients-delivery {
+    display: none;
+  }
+  .wrapper main .cards__seth-image {
+    padding: 0;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .wrapper main .cards__seth-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .wrapper main .footer__inner {
+    display: block;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .wrapper main .footer__menu {
+    display: none;
+  }
+  .wrapper main .footer__contacts {
+    padding: 20px 0px 30px 0px;
+    border-right: none;
+  }
+  .wrapper main .footer__contacts-title {
+    display: none;
+  }
+  .wrapper main .footer__contacts-input {
+    display: none;
+  }
+  .wrapper main .footer__socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrapper main .footer__phones {
+    padding: 0px 0px 30px 0px;
+  }
+  .wrapper main .footer__extra {
+    display: block;
+  }
+}
+@media (max-width: 550px) {
+  .wrapper main .header {
+    padding-left: 25px;
+  }
+  .wrapper main .header__contacts::before {
+    width: 50px;
+    height: 50px;
+  }
+  .wrapper main .header__contacts-connect {
+    padding: 6px 13px 0px 0px;
+  }
+  .wrapper main .header__contacts-title {
+    font-size: 17px;
+  }
+  .wrapper main .header__contacts-phone {
+    padding-left: 15px;
+  }
+  .wrapper main .header__contacts-chart {
+    font-size: 15px;
+    line-height: 17px;
+    margin: 8px 0px 0px 0px;
+    max-width: 87px;
+  }
+  .wrapper main .header__contacts-chart::before {
+    width: 15px;
+    height: 15px;
+  }
+  .wrapper main .header__clients {
+    padding: 37px 20px 35px 0px;
+  }
+  .wrapper main .header__clients-search {
+    padding-left: 0px;
+    width: 30px;
+    height: 30px;
+  }
+  .wrapper main .header__clients-search img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .wrapper main .order__eat {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper main .order__total-orders {
+    font-size: 15px;
+  }
+  .wrapper main .order__total-price {
+    font-size: 15px;
+  }
+  .wrapper main .cards__seth-image {
+    padding: 0;
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper main .cards__seth-title {
+    font-size: 18px;
+    line-height: 17px;
+  }
+  .wrapper main .cards__seth-size {
+    font-size: 22px;
+  }
+  .wrapper main .cards__seth-btn {
+    font-size: 22px;
+    padding: 2px 25px;
+  }
+}
+@media (max-width: 400px) {
+  .wrapper main .cards__seth-title {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .wrapper main .cards__seth-description {
+    font-size: 14px;
+  }
+  .wrapper main .cards__seth-size {
+    font-size: 18px;
+  }
+  .wrapper main .cards__seth-btn {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 2px 25px;
+  }
+}
+@media (min-width: 1170px) {
+  .wrapper .sidebar {
+    display: block !important;
+    position: static;
+  }
+}
